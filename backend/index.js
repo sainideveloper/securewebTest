@@ -6,6 +6,7 @@ const mongoose = require("mongoose");
 
 const userRoutes = require("./routes/user.route");
 const postRoutes = require("./routes/post.route");
+const blogRoutes = require("./routes/blog.route");
 
 const app = express();
 
@@ -28,6 +29,7 @@ mongoose.connection.on('error', err => {
 // Routes
 app.use('/api', userRoutes);
 app.use('/api', postRoutes);
+app.use('/api', blogRoutes);
 
 // Start server
 const port = 5000;
