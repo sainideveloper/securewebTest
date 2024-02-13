@@ -1,2 +1,7 @@
-# Backend Code 
-# npm start - Run Project 
+# Backend code 
+# Node Project 
+# Express Framework
+# use MongoDB
+
+
+# npm start -- Run project backend  
